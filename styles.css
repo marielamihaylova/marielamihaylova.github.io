@@ -1,0 +1,26 @@
+/* styles.css */ 
+ 
+body { 
+  font-family: Arial, sans-serif; 
+  background-color: #f0f0f0; 
+} 
+
+h1 { 
+  color: rgba(0, 145, 255, 0.852); 
+} 
+
+p { 
+  font-size: 16px; 
+} 
+
+ul li {
+  background: #e0e5e9;
+  color: rgb(139, 0, 0);
+  margin: 5px;
+}
+
+div {
+    background-color: green; 
+    height: 100px;
+    width: 100px;
+   }
