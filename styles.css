@@ -1,26 +1,99 @@
-/* styles.css */ 
- 
-body { 
-  font-family: Arial, sans-serif; 
-  background-color: #f0f0f0; 
-} 
 
-h1 { 
-  color: rgba(0, 145, 255, 0.852); 
-} 
-
-p { 
-  font-size: 16px; 
-} 
-
-ul li {
-  background: #e0e5e9;
-  color: rgb(139, 0, 0);
-  margin: 5px;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-div {
-    background-color: green; 
-    height: 100px;
-    width: 100px;
-   }
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header nav ul li {
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  color: #ff6347; 
+}
+
+
+.container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.vertical-nav {
+  float: left; 
+  width: 200px; 
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+.vertical-nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.vertical-nav ul li {
+  margin-bottom: 10px;
+}
+
+.vertical-nav ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.vertical-nav ul li a:hover {
+  color: #ff6347; 
+}
+
+
+.content {
+  width: 70%; 
+  padding: 20px;
+  background-color: #eaeaea;
+}
+
+.content h1 {
+  margin-top: 0;
+}
+
+.content p {
+  padding: 10px;
+}
+
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding: 5px;
+}
+
+a {
+  padding: 10px;
+}
+
+a:hover {
+  padding: 12px;
+  background-color: #f0f0f0;
+}
+
